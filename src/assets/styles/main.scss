@@ -1,0 +1,11 @@
+@import "vars";
+@import "header";
+@import "carousel";
+@import "moviePage";
+html{
+  background-color: $blackPrimary;
+  color: $whitePrimary;
+}
+h1{
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+@import "vars";
+.moviePage{
+  &-img{
+    img{
+      width: 100%;
+    }
+  }
+  &__info{
+    &-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-item{
+      display: flex;
+    }
+    .infoItem__values{
+      margin-left: 5px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .ageRating-green, .rating-green{
+    color: $greenPrimary;
+  }
+  .ageRating-yellow, .rating-yellow{
+    color: $yellowPrimary;
+  }
+  .ageRating-red, .rating-red{
+    color: $redPrimary;
+  }
+}
